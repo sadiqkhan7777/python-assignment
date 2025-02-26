@@ -1,7 +1,6 @@
 # 🔹 Python Data Types (with Examples)
                                                                             # 1. Numeric Types
 
-
 # Integer (int)
 # x = 10
 # print(type(x))  # Output: <class 'int'>
@@ -15,7 +14,6 @@
 # print(type(z))  # Output: <class 'complex'>
 
                                                                             # 2. Sequence Types
-
 # String (str)
 # text = "Hello, Python!"
 # print(type(text))  # Output: <class 'str'>
@@ -33,7 +31,6 @@
 # print(type(my_range))  # Output: <class 'range'>
 
                                                                             # 3. Set Types
-
 # Set (set) - Unordered collection with unique elements
 # my_set = {1, 2, 3, 3, 2}
 # print(type(my_set))  # Output: <class 'set'>
@@ -44,19 +41,16 @@
 # print(type(frozen))  # Output: <class 'frozenset'>
 
                                                                             # 4. Mapping Types
-
 # Dictionary (dict) - Key-value pairs
 # my_dict = {"name": "Alice", "age": 25}
 # print(type(my_dict))  # Output: <class 'dict'>
 
                                                                             # 5. Boolean Type
-
 # Boolean (bool) - True or False
 # is_active = True
 # print(type(is_active))  # Output: <class 'bool'>
 
                                                                             # 6. Binary Types
-
 # Bytes (bytes) - Immutable byte sequence
 # my_bytes = b"hello"
 # print(type(my_bytes))  # Output: <class 'bytes'>
@@ -70,14 +64,12 @@
 # print(type(mv))  # Output: <class 'memoryview'>
 
                                                                             # 7. None Type
-
 # NoneType (None) - Represents the absence of a value
 # nothing = None
 # print(type(nothing))  # Output: <class 'NoneType'>
 
 # 🔹 Python Special Keywords (with Examples)
                                                                             # 1. Control Flow Keywords
-
 
 # import keyword
 # print(keyword.kwlist)
@@ -119,7 +111,6 @@
 
 
                                                                             # 2. Exception Handling Keywords
-
 # try:
 #     num = 10 / 0  # Will cause ZeroDivisionError
 # except ZeroDivisionError:
@@ -132,7 +123,6 @@
 # assert x > 0, "x should be positive"
 
                                                                                 # 3. Function & Class Keywords
-
 # def - Define a function
 # def greet(name):
 #     return f"Hello, {name}!"
@@ -152,7 +142,6 @@
 # print(p.name)
 
                                                                                 # 4. Variable Handling Keywords
-
 # global - Access global variables inside a function
 # x = 10
 
@@ -178,9 +167,7 @@
 # z = 100
 # del z  # Now z is deleted
 
-
                                                                         # 5. Boolean & None Keywords
-
 # True, False - Boolean values
 # print(True and False)  # Output: False
 # print(not True)  # Output: False
