@@ -57,5 +57,3 @@ not, and, or → Logical operators
 async, await → Define asynchronous functions
 9. Special Keywords
 match, case → Pattern matching (Python 3.10+)
-
-![alt text](image-1.png)
