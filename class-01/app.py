@@ -121,7 +121,7 @@ for i in range(5):
                                                                             # 2. Exception Handling Keywords
 
 try:
-    num = 10 / 0  # Will cause ZeroDivisionError
+    num = 10 / 0
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 finally:
@@ -179,8 +179,8 @@ del z
                                                                         # 5. Boolean & None Keywords
 
 # True, False - Boolean values
-print(True and False)  # Output: False
-print(not True)  # Output: False
+print(True and False)
+print(not True)
 
 # # None - Represents a null value
 value = None
@@ -205,15 +205,15 @@ with open("example.txt", "w") as file:
 # is - Identity comparison
 a = [1, 2, 3]
 b = a
-print(a is b)  # Output: True
+print(a is b)  
 
 # # in - Membership test
-print(2 in [1, 2, 3])  # Output: True
+print(2 in [1, 2, 3]) 
 
 # # not, and, or - Logical operators
-print(not False)  # Output: True
-print(True and False)  # Output: False
-print(True or False)  # Output: True
+print(not False) 
+print(True and False) 
+print(True or False) 
 
 # 8. Asynchronous Programming Keywords
 
@@ -234,6 +234,6 @@ match value:
     case 1:
         print("One")
     case 2:
-        print("Two")  # Output: Two
+        print("Two")   
     case _:
         print("Unknown number")
